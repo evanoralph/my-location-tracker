@@ -2,6 +2,10 @@
 
 A modern React Native application built with Expo for tracking and managing locations. This app provides a user-friendly interface for location tracking with features like map integration, location history, and real-time updates.
 
+Video link
+
+https://drive.google.com/file/d/12TU59fc_C4lFC-0P5fFsBEXMN_hpmBBU/view?usp=sharing
+
 ## 🚀 Features
 
 - Real-time location tracking
@@ -9,6 +13,23 @@ A modern React Native application built with Expo for tracking and managing loca
 - Location history management
 - Modern UI with smooth animations
 - Cross-platform support (iOS & Android)
+
+## 📱 How the App Works
+
+### Location Tracking
+The app uses the device's GPS capabilities to track your location in real-time. It provides:
+
+### Map Integration
+- Interactive Google Maps interface
+- Real-time location marker
+- Location search and autocomplete
+- Custom map markers for saved locations
+
+### User Interface
+- Clean and intuitive design
+- Smooth animations for better user experience
+- Responsive layout for different screen sizes
+- Gesture-based navigation
 
 ## 🛠️ Tech Stack
 
@@ -39,7 +60,7 @@ my-location-tracker/
 ├── hooks/              # Custom React hooks
 ├── scripts/            # Utility scripts
 ├── .env                # Environment variables
-├── app.json           # Expo configuration
+├── app.config.json     # Expo configuration
 ├── babel.config.js    # Babel configuration
 ├── metro.config.js    # Metro bundler configuration
 ├── tailwind.config.js # Tailwind CSS configuration
@@ -50,7 +71,7 @@ my-location-tracker/
 
 ### Prerequisites
 - Node.js (v14 or later)
-- npm or yarn
+- yarn
 - Expo CLI
 - iOS Simulator (for Mac) or Android Studio (for Android development)
 
@@ -65,15 +86,11 @@ cd my-location-tracker
 2. Install dependencies:
 ```bash
 yarn install
-# or
-npm install
 ```
 
 3. Start the development server:
 ```bash
 yarn start
-# or
-npm start
 ```
 
 4. Run on specific platform:
@@ -82,26 +99,7 @@ npm start
 yarn ios
 # For Android
 yarn android
-# For web
-yarn web
 ```
-
-## 🧪 Testing
-
-Run the test suite:
-```bash
-yarn test
-```
-
-## 📝 Scripts
-
-- `yarn start` - Start the Expo development server
-- `yarn android` - Run on Android device/emulator
-- `yarn ios` - Run on iOS simulator
-- `yarn web` - Run on web browser
-- `yarn test` - Run test suite
-- `yarn lint` - Run linter
-- `yarn reset-project` - Reset project configuration
 
 ## 🔧 Configuration
 
@@ -109,15 +107,3 @@ The app uses environment variables for configuration. Create a `.env` file in th
 ```
 GOOGLE_MAPS_API_KEY=your_api_key_here
 ```
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.

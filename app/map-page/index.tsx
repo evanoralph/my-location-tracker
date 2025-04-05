@@ -126,8 +126,7 @@ export default function MapPage() {
     mapRef.current?.animateToRegion(newRegion, 1000);
   };
 
-
-  if(permissionStatus === 'denied') {
+  if(permissionStatus === 'denied' || permissionStatus === 'undetermined') {
     return (
       <Box className="flex-1 justify-center items-center gap-4">
           <Image source={images.pin} className="w-[200px] h-[200px]" resizeMode="contain" />

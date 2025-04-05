@@ -2,6 +2,11 @@
 import { vars } from 'nativewind';
 
 export const config = {
+  fonts: {
+    heading: "PoppinsBold",
+    body: "PoppinsRegular",
+    mono: "SpaceMono",
+  },
   light: vars({
     '--color-primary-0': '179 179 179',
     '--color-primary-50': '153 153 153',

@@ -13,6 +13,24 @@ export const LocationSearch = ({ onLocationSelect, onTranslateCoordinates }: Loc
       <SafeAreaView>
         <GooglePlacesAutocomplete
           fetchDetails={true}
+          debounce={200}
+          styles={{
+            row: {
+              backgroundColor: "white",
+              width: "100%",
+            },
+            listView: {
+              backgroundColor: "white",
+              width: "100%",
+            },
+            description: {
+              fontFamily: "PoppinsRegular",
+            },
+            itemSeparator: {
+              height: 1,
+              backgroundColor: "gray",
+            },
+          }}
           query={{
             key: process.env.EXPO_PUBLIC_GOOGLE_MAPS_API_KEY,
             language: 'en',
