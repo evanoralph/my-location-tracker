@@ -6,6 +6,10 @@ Video link
 
 https://drive.google.com/file/d/12TU59fc_C4lFC-0P5fFsBEXMN_hpmBBU/view?usp=sharing
 
+Expo Snack Link
+
+https://snack.expo.dev/@evanoralph/mylocatorapp
+
 ## 🚀 Features
 
 - Real-time location tracking
